@@ -18,17 +18,17 @@ The underlying concept is the usage of Macros to control the MS-Office files. Th
 # INSTRUCTIONS
 
 1. Clone the repository using the following command
-  - ```
-    git clone
-    ```
+   - ```
+     git clone
+     ```
 2. Open the **macro.txt** file 
-  - In the place of **Date** present in the *macro.txt* enter and expiration date for the file
-  - Copy the contents of the file 
+   - In the place of **Date** present in the *macro.txt* enter and expiration date for the file
+   - Copy the contents of the file 
   
 3. Open your choice of MS-Office applicaion (Word/Excel/PPT) and enable developer mode form the options
-  - Navigate to the **Visual Basic** section under the *Developer* tab
-  - Select the **ThisWorkbook** option from the *project tree*
-  - In the workbook make sure **Object : Workbook** and ** **Procedure : Open** by selecting the appropriate drop-down buttons
+   - Navigate to the **Visual Basic** section under the *Developer* tab
+   - Select the **ThisWorkbook** option from the *project tree*
+   - In the workbook make sure **Object : Workbook** and ** **Procedure : Open** by selecting the appropriate drop-down buttons
 4. Paste the copied code from **Step: 3**
 5. Save the MS-Office file as **Macro enable file** and close the VB_Script editor and the MS-Ofice file.
 6. Now open the MS-Office files to see the magic
